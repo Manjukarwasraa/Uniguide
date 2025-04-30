@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to right, #fceabb, #f8b500);
+  }
+  
+  .suggestion-container {
+	background-color: white;
+	padding: 40px;
+	border-radius: 15px;
+	box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+	width: 400px;
+	text-align: center;
+  }
+  
+  .suggestion-container h2 {
+	margin-bottom: 10px;
+	color: #333;
+  }
+  
+  .suggestion-container p {
+	margin-bottom: 20px;
+	color: #666;
+  }
+  
+  .suggestion-container input,
+  .suggestion-container textarea {
+	width: 100%;
+	padding: 12px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	font-size: 15px;
+  }
+  
+  .suggestion-container textarea {
+	resize: vertical;
+	min-height: 100px;
+  }
+  
+  .suggestion-container button {
+	width: 100%;
+	padding: 12px;
+	background-color: #f8b500;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background 0.3s;
+  }
+  
+  .suggestion-container button:hover {
+	background-color: #d89600;
+  }
+  
